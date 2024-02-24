@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #161e2c;
+    border-radius: 1rem;
+    font-size: xx-large;
+}
+
+@media only screen and(max-width: 600px){
+    .footer{
+        margin: 0.5rem;
+        padding: 0.5rem;
+        font-size: x-large;
+    }
+}

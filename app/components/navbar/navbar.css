@@ -7,3 +7,11 @@
     background-color: #161e2c;
     border-radius: 1rem;
 }
+
+@media only screen and(max-width: 600px){
+    .navbar{
+        margin: 0.5rem;
+        padding: 0.5rem;
+        font-size: x-large;
+    }
+}
