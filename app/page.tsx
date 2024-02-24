@@ -36,6 +36,12 @@ export default function Home() {
           </span>
         </div>
       </div>
+      <div className="page-box">
+        <h1 className="page-box-h1 text-teal-300">Click <i><u><a href="/members">here</a></u></i> to see our members.</h1>
+        <h1 className="page-box-h1 text-teal-300">Click <i><u><a href="/projects">here</a></u></i> to see our projects.</h1>
+        <h1 className="page-box-a text-teal-300"><a href="https://www.instagram.com/fll_voltran/"><u><i>Instagram</i></u></a></h1>
+        <h1 className="page-box-a text-teal-300"><a href="https://www.youtube.com/@TugbaOzbek-zn9br"><u><i>Youtube</i></u></a></h1>
+      </div>
     </main>
   );
 }
