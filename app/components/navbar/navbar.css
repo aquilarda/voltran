@@ -1,0 +1,9 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 1rem;
+    user-select: none;
+    background-color: #161e2c;
+    border-radius: 1rem;
+}

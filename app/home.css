@@ -1,0 +1,20 @@
+.left-info-box{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #161e2c;
+    border-radius: 1rem;
+}
+
+.right-info-box{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #161e2c;
+    border-radius: 1rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
