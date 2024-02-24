@@ -6,6 +6,14 @@
     border-radius: 1rem;
 }
 
+.left-title{
+    font-size: xx-large;
+}
+
+.left-box-text{
+    font-size: larger;
+}
+
 .right-info-box{
     margin: 1rem;
     display: flex;
@@ -14,7 +22,46 @@
     border-radius: 1rem;
 }
 
+.right-title{
+    font-size: xx-large;
+}
+
+.right-box-text{
+    font-size: larger;
+}
+
 .main{
     display: flex;
     flex-direction: row;
+}
+
+.team-photo{
+    width: 70%;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: solid #42d32e;
+}
+@media only screen and (max-width: 600px){
+    .main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-box-text{
+        font-size: medium;
+        margin: 0.5rem;
+    }
+    .right-box-text{
+        font-size: medium;
+        margin: 0.5rem;
+    }
+    .right-title{
+        font-size: xx-large;
+    }
+    .team-photo{
+        width: 100%;
+        border-radius: 1rem;
+    }
 }
