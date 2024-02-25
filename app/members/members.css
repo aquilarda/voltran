@@ -1,0 +1,10 @@
+.members{
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    align-items: center;
+    background-color: #161e2c;
+    border-radius: 1rem;
+    font-size: xx-large;
+}

@@ -5,6 +5,7 @@ import Home from "@/app/page";
 import Footer from "@/app/components/footer/footer";
 import Navbar from "@/app/components/navbar/navbar";
 import Members from "@/app/members/page";
+import Projects from "@/app/projects/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
