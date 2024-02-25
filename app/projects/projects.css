@@ -13,6 +13,7 @@
     margin-right: auto;
     border-radius: 1rem;
     border: solid #42d32e;
+    display: flex;
 }
 
 .project-24{
