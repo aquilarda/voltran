@@ -1,0 +1,26 @@
+.project-23{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    background-color: #161e2c;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.img-projects{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    border: solid #42d32e;
+}
+
+.project-24{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    background-color: #161e2c;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
