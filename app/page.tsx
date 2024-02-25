@@ -1,5 +1,5 @@
 import "@/app/home.css";
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
             </h3>
           </span>
           <span>
-            <img
+            <Image
               src="/teamphoto.png"
               alt="A photograph of our team."
               className="team-photo"
@@ -38,8 +38,8 @@ export default function Home() {
             </h3>
           </span>
           <span>
-            <img
-              src="/teamphoto.png"
+            <Image
+              src="/onurandberin.png"
               alt="A photograph of our team."
               className="team-photo"
             />
@@ -80,7 +80,7 @@ export default function Home() {
           </a>
         </h1>
       </div>
-      <a href="/"><img src="/favicon.png" alt="Voltran Logo" className="img-logo" /></a>
+      <a href="/"><Image src="/favicon.png" alt="Voltran Logo" className="img-logo" /></a>
     </main>
   );
 }
