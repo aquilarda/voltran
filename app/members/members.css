@@ -8,3 +8,17 @@
     border-radius: 1rem;
     font-size: xx-large;
 }
+.member-line{
+    padding: 1rem;
+}
+
+@media only screen and(max-width: 600px){
+    .members{
+        padding: 0.5rem;
+        margin: 0.5rem;
+        font-size: large;
+    }
+    .member-line{
+        padding: 0.5rem;
+    }
+}

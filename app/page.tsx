@@ -42,6 +42,7 @@ export default function Home() {
         <h1 className="page-box-a text-teal-300"><a href="https://www.instagram.com/fll_voltran/"><u><i>Instagram</i></u></a></h1>
         <h1 className="page-box-a text-teal-300"><a href="https://www.youtube.com/@TugbaOzbek-zn9br"><u><i>Youtube</i></u></a></h1>
       </div>
+      <img src="/favicon.png" alt="Voltran Logo" className="img-logo"/>
     </main>
   );
 }
