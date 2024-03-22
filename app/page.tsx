@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <div className="main">
-        <div className="left-info-box">
+    <main className="text-center">
+      <div className="main flex flex-row">
+        <div className="left-info-box flex my-4 mx-8 flex-col rounded-2xl">
           <span className="left-info-box-title">
             <h1 className="left-title p-4">Who we are?</h1>
           </span>
@@ -16,15 +16,8 @@ export default function Home() {
               and always curious to do better.
             </h3>
           </span>
-          <span>
-            <Image
-              src="/teamphoto.png"
-              alt="A photograph of our team."
-              className="team-photo"
-            />
-          </span>
         </div>
-        <div className="right-info-box">
+        <div className="right-info-box flex flex-col my-4 mx-8 rounded-2xl">
           <span className="right-info-box-title">
             <h1 className="right-title p-4">What do we do?</h1>
           </span>
@@ -37,16 +30,9 @@ export default function Home() {
               improvement.
             </h3>
           </span>
-          <span>
-            <Image
-              src="/onurandberin.png"
-              alt="A photograph of our team."
-              className="team-photo"
-            />
-          </span>
         </div>
       </div>
-      <div className="page-box">
+      <div className="page-box flex flex-col m-4 p-8 text-center rounded-2xl">
         <h1 className="page-box-h1 text-teal-300">
           Click{" "}
           <i>
@@ -80,7 +66,15 @@ export default function Home() {
           </a>
         </h1>
       </div>
-      <a href="/"><Image src="/favicon.png" alt="Voltran Logo" className="img-logo" /></a>
+      <a href="/">
+        <Image
+          src="/favicon.png"
+          alt="Voltran Logo"
+          className="img-logo flex"
+          width={280}
+          height={280}
+        />
+      </a>
     </main>
   );
 }

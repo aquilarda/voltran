@@ -1,9 +1,5 @@
 .left-info-box {
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
   background-color: #161e2c;
-  border-radius: 1rem;
 }
 
 .left-title {
@@ -12,14 +8,11 @@
 
 .left-box-text {
   font-size: larger;
+  max-width: 75rem;
 }
 
 .right-info-box {
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
   background-color: #161e2c;
-  border-radius: 1rem;
 }
 
 .right-title {
@@ -28,47 +21,28 @@
 
 .right-box-text {
   font-size: larger;
-}
-
-.main {
-  display: flex;
-  flex-direction: row;
-}
-
-.team-photo {
-  width: 70%;
-  border-radius: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: solid #42d32e;
+  max-width: 75rem;
 }
 
 .page-box {
-  display: flex;
-  flex-direction: column;
   font-size: x-large;
   background-color: #161e2c;
-  margin: 1rem;
-  padding: 2rem;
-  text-align: center;
-  border-radius: 1rem;
 }
+
 .page-box-h1 {
   padding: 1rem;
 }
+
 .page-box-a {
   padding: 1rem;
 }
 
 .img-logo{
-  max-width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: auto;
+  width: 17.5rem;
+  height: 17.5rem;
 }
+
 @media only screen and (max-width: 600px) {
   .main {
     flex-direction: column;
@@ -88,10 +62,6 @@
   .left-title {
     font-size: xx-large;
   }
-  .team-photo {
-    width: 100%;
-    border-radius: 1rem;
-  }
   .page-box {
     font-size: large;
   }
@@ -102,7 +72,6 @@
     padding: 0.5rem;
   }
   .img-logo{
-    max-width: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;

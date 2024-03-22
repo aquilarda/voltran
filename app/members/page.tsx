@@ -3,7 +3,7 @@ import "@/app/members/members.css"
 export default function Members(){
     return(
         <main>
-            <div className="members">
+            <div className="members block p-4 m-4 text-center items-center">
               <h1 className="member-line">Arda Yeşildağ - Teknofest/FLL</h1> <hr />
               <h1 className="member-line">Taylan Öztürk - Teknofest/FLL</h1> <hr />
               <h1 className="member-line">Belinay Sütçü - Teknofest/FLL</h1> <hr />

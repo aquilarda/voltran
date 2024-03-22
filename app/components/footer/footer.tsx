@@ -5,7 +5,7 @@ export default function Footer(){
         <main>
             <div className="footer">
                 <div className="footer-left"><h1><a href="/">Voltran</a></h1></div>
-                <div className="footer-right"><h1><a href="https://github.com/aquilarda/"><i>GitHub</i></a></h1></div>
+                <div className="footer-right"><h1><a href="https://github.com/aquilarda/">GitHub</a></h1></div>
             </div>
         </main>
     );
