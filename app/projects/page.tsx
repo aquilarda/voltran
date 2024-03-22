@@ -8,7 +8,7 @@ export default function Projects() {
         <h1>
           In the 2022-2023 First Lego League season, we won the Innovative
           Project 2nd place award with our Street Lamp Improvement Project.
-          <img src="/odul.png" alt="Our Prize" className="img-projects my-4" />
+          <img src="/odul.png" alt="Our Prize" className="img-projects flex my-4 rounded-2xl" />
           <Image
             src="/proje23.png"
             alt="Our Project in 2023"
